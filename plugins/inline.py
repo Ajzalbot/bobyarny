@@ -76,7 +76,7 @@ def get_reply_markup(username, query):
         InlineKeyboardButton('Search movies', switch_inline_query_current_chat=''),
         InlineKeyboardButton('Search Again', switch_inline_query_current_chat=query),
 
-    ],[ InlineKeyboardButton('Share bot', url=url),
+    ],[ InlineKeyboardButton('Share me 🤝', url=url),
            ]]
     return InlineKeyboardMarkup(buttons)
 
